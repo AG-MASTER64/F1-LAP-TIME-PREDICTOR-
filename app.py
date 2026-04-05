@@ -1,6 +1,11 @@
-import fastf1
-fastf1.Cache.enable_cache('cache')
 import os
+import fastf1
+
+# Create cache folder if not exists
+os.makedirs("cache", exist_ok=True)
+
+# Enable caching
+fastf1.Cache.enable_cache("cache")
 import warnings
 import pickle
 import hashlib
