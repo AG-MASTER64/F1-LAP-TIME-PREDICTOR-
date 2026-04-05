@@ -1,1 +1,9 @@
- fastf1
+streamlit
+fastf1
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+scipy
