@@ -1,3 +1,5 @@
+import fastf1
+fastf1.Cache.enable_cache('cache')
 import os
 import warnings
 import pickle
